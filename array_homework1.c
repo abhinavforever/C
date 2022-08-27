@@ -24,4 +24,4 @@ int main()
     }
     printf("no. of times that %d has occurred in the array=%d", num, k);
     return 0;
-}
+}//ok
