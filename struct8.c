@@ -5,7 +5,7 @@ struct complex
     float real;
     float imaginary;
 };
-void printing(struct complex *c1, struct complex *c2);
+void printing(struct complex *c3, struct complex *c2);
 int main()
 {
     struct complex c1 = {2.3, 3.4};
@@ -13,8 +13,8 @@ int main()
     printing(&c1, &c2);
     return 0;
 }
-void printing(struct complex *c1, struct complex *c2)
+void printing(struct complex *c3, struct complex *c2)
 {
-    printf("first complex number is %f + %fi\n", c1->real, c1->imaginary);
+    printf("first complex number is %f + %fi\n", c3->real, c3->imaginary);
     printf("second complex number is %f + %fi\n", c2->real, c2->imaginary);
 }
